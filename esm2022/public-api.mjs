@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of event
+ */
+export * from './lib/event.service';
+export * from './lib/event.component';
+export * from './lib/event.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3Byb2plY3RzL3BpY3MtbW9kdWxlL2V2ZW50L3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxxQkFBcUIsQ0FBQztBQUNwQyxjQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGNBQWMsb0JBQW9CLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgZXZlbnRcclxuICovXHJcblxyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9ldmVudC5zZXJ2aWNlJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvZXZlbnQuY29tcG9uZW50JztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvZXZlbnQubW9kdWxlJztcclxuIl19
