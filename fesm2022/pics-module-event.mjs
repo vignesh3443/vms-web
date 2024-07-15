@@ -3,6 +3,9 @@ import { Injectable, Directive, Input, Component, ViewChild, NgModule, NO_ERRORS
 import { BehaviorSubject, of, Subject } from 'rxjs';
 import { map, debounceTime } from 'rxjs/operators';
 import interactionPlugin from '@fullcalendar/interaction';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import listPlugin from '@fullcalendar/list';
+import timeGridPlugin from '@fullcalendar/timegrid';
 import * as i7 from '@angular/common';
 import { DatePipe, CommonModule } from '@angular/common';
 import * as i1$1 from '@angular/forms';
@@ -753,14 +756,14 @@ class EventsComponent {
     selectedlabel = [];
     isPublicHoliday;
     calendarOptions = {
-        plugins: [interactionPlugin],
+        plugins: [dayGridPlugin, interactionPlugin, timeGridPlugin, listPlugin],
+        initialView: 'dayGridMonth',
         headerToolbar: {
             left: 'prev,next today myCustomButton',
             center: 'title',
             right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
         },
         eventContent: this.renderEventContent,
-        initialView: 'dayGridMonth',
         nowIndicator: true,
         weekends: true,
         editable: true,
