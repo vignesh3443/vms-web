@@ -22,5 +22,5 @@ export declare class LoginComponent implements OnInit {
     onLoginSuccessful($event: any): void;
     onVerifyingOtp($event: any): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<LoginComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<LoginComponent, "login", never, { "RBACORG": { "alias": "RBACORG"; "required": false; }; "PERMISSION": { "alias": "PERMISSION"; "required": false; }; "LOGININFO": { "alias": "LOGININFO"; "required": false; }; "loginEvent": { "alias": "loginEvent"; "required": false; }; }, { "libOnPasswordExpired": "libOnPasswordExpired"; "libOnLoginSuccessful": "libOnLoginSuccessful"; "libOnVerifyingOtp": "libOnVerifyingOtp"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<LoginComponent, "login", never, { "RBACORG": "RBACORG"; "PERMISSION": "PERMISSION"; "LOGININFO": "LOGININFO"; "loginEvent": "loginEvent"; }, { "libOnPasswordExpired": "libOnPasswordExpired"; "libOnLoginSuccessful": "libOnLoginSuccessful"; "libOnVerifyingOtp": "libOnVerifyingOtp"; }, never, never>;
 }
