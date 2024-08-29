@@ -32,6 +32,7 @@ export declare class LoginComponent implements OnInit {
     RBACORG?: any;
     passwordExpired: EventEmitter<any>;
     loginSuccessful: EventEmitter<any>;
+    verifyingOtp: EventEmitter<any>;
     value3: string;
     cities: City[];
     selectedCity1: City;
@@ -73,6 +74,6 @@ export declare class LoginComponent implements OnInit {
     getSessionDetails(): void;
     generateLoginUrl(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<LoginComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<LoginComponent, "lib-login", never, { "LOGININFO": { "alias": "LOGININFO"; "required": false; }; "RBACORG": { "alias": "RBACORG"; "required": false; }; }, { "passwordExpired": "passwordExpired"; "loginSuccessful": "loginSuccessful"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<LoginComponent, "lib-login", never, { "LOGININFO": { "alias": "LOGININFO"; "required": false; }; "RBACORG": { "alias": "RBACORG"; "required": false; }; }, { "passwordExpired": "passwordExpired"; "loginSuccessful": "loginSuccessful"; "verifyingOtp": "verifyingOtp"; }, never, never, false, never>;
 }
 export {};
